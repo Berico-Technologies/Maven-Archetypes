@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>fallwizard-archetype</id>
+  <sources>
+    <source>src/main/java/ExampleService.java</source>
+    <source>src/main/java/ExampleConfiguration.java</source>
+    <source>src/main/java/cli/ExampleCommand.java</source>
+    <source>src/main/java/health/ExampleHealthCheck.java</source>
+    <source>src/main/java/managed/ExampleManaged.java</source>
+    <source>src/main/java/resources/ExampleResource.java</source>
+    <source>src/main/java/tasks/ExampleTask.java</source>
+  </sources>
+  <resources>
+  	<resource>conf/applicationContext.xml</resource>
+  	<resource>conf/basicAuthSecurityContext.xml</resource>
+  	<resource>conf/x509SecurityContext.xml</resource>
+  	<resource>conf/server-basicAuth.yaml</resource>
+  	<resource>conf/server-x509.yaml</resource>
+  	<resource>start-server.sh</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/ExampleServiceTest.java</source>
+  </testSources>
+</archetype>
