@@ -12,6 +12,7 @@
     <source>src/main/java/tasks/ExampleTask.java</source>
   </sources>
   <resources>
+  	<resource>src/main/resources/banner.txt</resource>
   	<resource>conf/applicationContext.xml</resource>
   	<resource>conf/basicAuthSecurityContext.xml</resource>
   	<resource>conf/x509SecurityContext.xml</resource>

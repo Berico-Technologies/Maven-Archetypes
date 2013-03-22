@@ -1,6 +1,8 @@
-applicationContext: ['configuration/applicationContext.xml', 'configuration/x509SecurityContext.xml']
+applicationContext: ['conf/applicationContext.xml', 'conf/x509SecurityContext.xml']
 
 useSpringSecurity: true
+
+exampleProperty: This was your example property
 
 logging:
     level: INFO
