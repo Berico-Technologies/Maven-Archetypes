@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import com.yammer.dropwizard.auth.Auth;
 import com.yammer.metrics.annotation.Timed;
 
-@Path("/exchange")
+@Path("/example")
 @Produces(MediaType.APPLICATION_JSON)
 public class ExampleResource {
 

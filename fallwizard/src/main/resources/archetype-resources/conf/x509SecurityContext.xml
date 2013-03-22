@@ -8,6 +8,7 @@
 
 	<security:http>
 		<security:intercept-url pattern="/*" access="ROLE_USER" />
+		<security:intercept-url pattern="/service/**/*" access="ROLE_USER" />
 		<security:intercept-url pattern="/admin/*" access="ROLE_ADMIN" />
 		<security:x509 subject-principal-regex="CN=(.*?)," />
 	</security:http>
