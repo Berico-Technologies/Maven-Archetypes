@@ -4,7 +4,6 @@
 	<groupId>com.berico.archetype</groupId>
 	<artifactId>amp-quickstart</artifactId>
 	<version>3.1.0</version>
-	<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.slf4j</groupId>

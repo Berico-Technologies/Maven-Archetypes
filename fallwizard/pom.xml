@@ -4,7 +4,6 @@
   <groupId>com.berico.archetype</groupId>
   <artifactId>fallwizard-archetype</artifactId>
   <version>1.0.0-RELEASE</version>
-  <packaging>jar</packaging>
   <properties>
   	<dropwizard.version>0.6.2</dropwizard.version>
   </properties>
