@@ -8,7 +8,7 @@ From the shell, execute the following command:
 
 ```bash
 mvn archetype:generate                                                               \
-  -DarchetypeRepository=nexus.bericotechnologies.com/content/repositories/release    \
+  -DarchetypeRepository=nexus.bericotechnologies.com/content/repositories/releases   \
   -DarchetypeGroupId=com.berico.archetype                                            \
   -DarchetypeArtifactId=fallwizard-archetype                                         \
   -DarchetypeVersion=1.0.0-RELEASE                                                   
