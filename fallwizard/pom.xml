@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.berico.archetype</groupId>
   <artifactId>fallwizard-archetype</artifactId>
-  <version>1.0.0-RELEASE</version>
+  <version>1.1.0-RELEASE</version>
   <properties>
     <fallwizard.version>1.1.0</fallwizard.version>
   	<dropwizard.version>0.6.2</dropwizard.version>
