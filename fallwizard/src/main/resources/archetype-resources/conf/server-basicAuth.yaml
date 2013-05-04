@@ -1,5 +1,7 @@
 applicationContext: ['conf/applicationContext.xml', 'conf/basicAuthSecurityContext.xml']
 
+beanProfiles: ['production', 'feature1', 'feature2']
+
 useSpringSecurity: true
 
 exampleProperty: This was your example property
