@@ -8,7 +8,7 @@ From the shell, execute the following command:
 
 ```bash
 mvn archetype:generate  \
-  -DarchetypeCatalog=http://nexus.bericotechnologies.com/content/repositories/releases/archetype-catalog.xml                                                
+  -DarchetypeCatalog=http://nexus.bericotechnologies.com/content/repositories/releases/archetype-catalog.xml
 ```
 
 Select the `fallwizard-archetype`.
