@@ -7,11 +7,10 @@ Generates a Fallwizard (Spring + Dropwizard) project with a lot of the annoying 
 From the shell, execute the following command:
 
 ```bash
-mvn archetype:generate                                                               \
-  -DarchetypeRepository=nexus.bericotechnologies.com/content/repositories/releases   \
-  -DarchetypeGroupId=com.berico.archetype                                            \
-  -DarchetypeArtifactId=fallwizard-archetype                                         \
-  -DarchetypeVersion=1.0.0-RELEASE                                                   
+mvn archetype:generate  \
+  -DarchetypeCatalog=http://nexus.bericotechnologies.com/content/repositories/releases/archetype-catalog.xml                                                
 ```
+
+Select the `fallwizard-archetype`.
 
 Follow the instructions displayed in the prompt.
