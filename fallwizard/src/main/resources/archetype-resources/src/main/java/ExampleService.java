@@ -1,9 +1,9 @@
 package ${package};
 
-import com.berico.fallwizard.SpringService;
+import com.bericotech.fallwizard.FallwizardService;
 import com.yammer.dropwizard.config.Bootstrap;
 
-public class ExampleService extends SpringService<ExampleConfiguration> {
+public class ExampleService extends FallwizardService<ExampleConfiguration> {
 
 	public static void main( String[] args ) throws Exception
 	{

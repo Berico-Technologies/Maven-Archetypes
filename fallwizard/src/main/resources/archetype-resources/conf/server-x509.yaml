@@ -1,8 +1,9 @@
-applicationContext: ['conf/applicationContext.xml', 'conf/x509SecurityContext.xml']
+spring:
+    applicationContext: ['conf/applicationContext.xml', 'conf/x509SecurityContext.xml']
 
-beanProfiles: ['production', 'feature1', 'feature2']
+    beanProfiles: ['production', 'feature1', 'feature2']
 
-useSpringSecurity: true
+    useSpringSecurity: true
 
 exampleProperty: This was your example property
 
